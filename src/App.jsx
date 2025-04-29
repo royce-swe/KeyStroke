@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route  } from "react-router-dom";
-import Header from "/Users/royhce/type-game/src/header.jsx";
-import Home from "/Users/royhce/type-game/src/Home.jsx";
+import Header from "./header.jsx";
+import Home from "./Home.jsx";
 
 function App() {
   
