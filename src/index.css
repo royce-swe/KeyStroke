@@ -1,0 +1,104 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+/* Home container */
+#home-container {
+  padding: 20px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Title */
+#home-text {
+  margin-top: 200px;
+  color: white;
+  font-size: 40px;
+}
+
+/* Snippet wrapper */
+#code-text-container {
+  background: #1e1e1e;
+  color: #ddd;
+  display: inline-block;      /* shrink‐wrap width */
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 8px;
+  min-height: 100px;
+  font-size: 24px;
+  font-family: monospace;
+  white-space: pre-wrap;
+  text-align: left;
+}
+
+/* Individual characters */
+.correct  { color: #4caf50; }
+.current  { background: #ffc107; }
+.upcoming { color: #888; }
+
+/* Finished stats */
+.finished-stats {
+  margin-top: 20px;
+  color: white;
+}
+.finished-stats p {
+  margin: 0.3rem 0;
+}
+
+/* Instruction text */
+.instructions {
+  margin-top: 10px;
+  color: white;
+}
+
+/* Optional: style the “↵” symbol a bit less obtrusive */
+.current .arrow, .correct .arrow {
+  opacity: 0.6;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: #2e86de;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #1e5fa3;
+}
