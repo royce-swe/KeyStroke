@@ -53,13 +53,16 @@ function Home() {
           const expected = chars[currentIndex];
           let key = e.key;
           if (key === "Enter") key = "\n";
-      
+        
           if (key === expected) {
             setIndex(i => i + 1);
             if (currentIndex + 1 >= chars.length) {
               setFinished(true);
             }
-          } else {
+          } else if (e.key === "Shift"){
+            return;
+          }
+           else {
             setErrors(err => err + 1);
           }
         }
