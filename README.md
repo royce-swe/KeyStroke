@@ -16,7 +16,7 @@ A fast-paced, fun typing game where you race to type real code snippets accurate
 
 ## 📸 Website
 
-Coming Soon!
+**https://key-stroke-two.vercel.app/**
 
 ---
 
